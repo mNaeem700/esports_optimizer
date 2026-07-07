@@ -16,7 +16,8 @@ class EsportsOptimizerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF121212),
-        colorScheme: ThemeData.dark().colorScheme.copyWith(primary: Colors.cyanAccent),
+        colorScheme:
+            ThemeData.dark().colorScheme.copyWith(primary: Colors.cyanAccent),
       ),
       home: const DashboardPage(),
     );
